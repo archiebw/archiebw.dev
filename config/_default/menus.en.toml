@@ -1,0 +1,11 @@
+[[main]]
+  identifier = "snippets"
+  name = "Snippets"
+  url = "snippets"
+  weight = 1
+
+[[main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "blog"
+  weight = 2

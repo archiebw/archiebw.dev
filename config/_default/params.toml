@@ -20,7 +20,7 @@ enableToc = true
 enableMenu = true
 enableNavbar = true
 enableFooter = true
-showPoweredBy = true
+showPoweredBy = false
 
 tocLevels = ["h2", "h3", "h4"]
 paginateWindow = 1

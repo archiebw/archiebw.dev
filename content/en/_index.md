@@ -1,7 +1,7 @@
 ---
 title: home
 description: Home page
-date: 2020-01-26T04:15:05+09:00
+date: 2020-11-05T22:11:21Z
 draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/archiebw/archiebw.dev) &nbsp; just arrived"
 landing:
@@ -15,15 +15,15 @@ landing:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
-    - link: snippets
-      text: Snippets
+    - link: docs
+      text: docs
       color: primary
 footer:
   sections:
     - title: General
       links:
-        - title: Snippets
-          link: ./snippets
+        - title: Docs
+          link: ./docs
         - title: Posts
           link: ./posts
     - title: Social
@@ -37,11 +37,11 @@ footer:
     applySinglePageCss: false
     markdown:
       |
-      ## Zzo docs
+      ## archiebw.dev
       Copyright © 2020. All rights reserved.
 
 sections:
-  - bgcolor: teal
+  - bgcolor: black
     type: card
     description: 
     header: 
@@ -51,7 +51,7 @@ sections:
       fontSize: 32
       width: 220
     cards:
-      - subtitle: Performance
+      - subtitle: DevOps
         subtitlePosition: center
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue."
         image: images/section/keyboard.png
@@ -63,7 +63,7 @@ sections:
           target: _blank
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Reliability
+      - subtitle: Cloud
         subtitlePosition: center
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
         image: images/section/processor.png
@@ -75,7 +75,19 @@ sections:
           target: _blank
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Productivity
+      - subtitle: CI/CD
+        subtitlePosition: center
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+        image: images/section/root-server.png
+        color: white
+        button: 
+          name: Yahoo
+          link: https://gohugo.io/
+          size: large
+          target: _blank
+          color: 'white'
+          bgcolor: '#283593'
+      - subtitle: Coding
         subtitlePosition: center
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
         image: images/section/root-server.png
